@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #98fb98;
+}
+
+.logo_container {
+  width: 30%;
+}
+
+.nav {
+  width: 70%;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+li > a {
+  color: #008b8b;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+li > a:hover {
+  color: #66cdaa;
+}
